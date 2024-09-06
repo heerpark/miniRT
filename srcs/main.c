@@ -50,7 +50,7 @@ int	main(void)
 		return (1);
     // 랜더링
     // P3 는 색상값이 아스키코드라는 뜻, 그리고 다음 줄은 캔버스의 가로, 세로 픽셀 수, 마지막은 사용할 색상값
-    printf("P3\n%d %d\n255\n", canv.width, canv.height);
+    printf("P3\n%d %d\n255\n", scene->canvas.width, scene->canvas.height);
     j = scene->canvas.height - 1;
     while (j >= 0)
     {
