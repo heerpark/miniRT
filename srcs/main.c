@@ -34,16 +34,8 @@ int	main(void)
     int     j;
     double      u;
     double      v;
-
-    int     canvas_width;
-    int     canvas_height;
 	t_color3	pixel_color;
 	t_scene 	*scene;
-    t_canvas    canv;
-    t_camera    cam;
-    t_ray       ray;
-	t_object	*world;
-	t_sphere	sp;
 
 	scene = scene_init();
 	if (!scene)
